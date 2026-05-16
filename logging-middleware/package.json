@@ -1,0 +1,6 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "Custom logging middleware for campus notification app",
+  "main": "index.js"
+}

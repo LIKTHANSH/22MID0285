@@ -1,0 +1,32 @@
+[2026-05-16T10:25:37.581Z] [INFO] Finding top 10 priority notifications
+[2026-05-16T10:25:37.586Z] [INFO] Fetching notifications from API...
+[2026-05-16T10:25:37.836Z] [ERROR] API returned error | {"status":401}
+[2026-05-16T10:25:37.837Z] [ERROR] Failed to fetch notifications | {"error":"API error: 401"}
+[2026-05-16T10:25:37.838Z] [ERROR] Failed to get priority notifications | {"error":"API error: 401"}
+[2026-05-16T10:26:50.360Z] [INFO] Finding top 10 priority notifications
+[2026-05-16T10:26:50.364Z] [INFO] Fetching notifications from API...
+[2026-05-16T10:26:50.639Z] [WARN] API returned error, falling back to mock data | {"status":401}
+[2026-05-16T10:26:50.641Z] [ERROR] Failed to fetch notifications, using mock data | {"error":"API error: 401"}
+[2026-05-16T10:26:50.642Z] [INFO] Top priority notifications found | {"count":10}
+[2026-05-16T10:26:50.643Z] [INFO] #1: [Placement] CSX Corporation hiring (score: 30.00)
+[2026-05-16T10:26:50.645Z] [INFO] #2: [Placement] Advanced Micro Devices Inc. hiring (score: 30.00)
+[2026-05-16T10:26:50.647Z] [INFO] #3: [Result] mid-sem (score: 20.00)
+[2026-05-16T10:26:50.648Z] [INFO] #4: [Result] mid-sem (score: 20.00)
+[2026-05-16T10:26:50.649Z] [INFO] #5: [Result] project-review (score: 20.00)
+[2026-05-16T10:26:50.649Z] [INFO] #6: [Result] external (score: 20.00)
+[2026-05-16T10:26:50.650Z] [INFO] #7: [Result] project-review (score: 20.00)
+[2026-05-16T10:26:50.650Z] [INFO] #8: [Result] project-review (score: 20.00)
+[2026-05-16T10:26:50.651Z] [INFO] #9: [Event] farewell (score: 10.00)
+[2026-05-16T10:26:50.651Z] [INFO] #10: [Event] tech-fest (score: 10.00)
+[2026-05-16T10:26:50.652Z] [INFO] --- PRIORITY INBOX RESULTS ---
+[2026-05-16T10:26:50.652Z] [INFO]   1. [Placement] CSX Corporation hiring | Score: 30.00
+[2026-05-16T10:26:50.654Z] [INFO]   2. [Placement] Advanced Micro Devices Inc. hiring | Score: 30.00
+[2026-05-16T10:26:50.654Z] [INFO]   3. [Result] mid-sem | Score: 20.00
+[2026-05-16T10:26:50.655Z] [INFO]   4. [Result] mid-sem | Score: 20.00
+[2026-05-16T10:26:50.655Z] [INFO]   5. [Result] project-review | Score: 20.00
+[2026-05-16T10:26:50.656Z] [INFO]   6. [Result] external | Score: 20.00
+[2026-05-16T10:26:50.656Z] [INFO]   7. [Result] project-review | Score: 20.00
+[2026-05-16T10:26:50.658Z] [INFO]   8. [Result] project-review | Score: 20.00
+[2026-05-16T10:26:50.659Z] [INFO]   9. [Event] farewell | Score: 10.00
+[2026-05-16T10:26:50.660Z] [INFO]   10. [Event] tech-fest | Score: 10.00
+[2026-05-16T10:26:50.661Z] [INFO] Done.

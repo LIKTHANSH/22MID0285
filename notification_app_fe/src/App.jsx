@@ -23,7 +23,11 @@ function App() {
   useEffect(() => {
     logger.log('fetching notifs')
     fetch('http://4.224.186.213/evaluation-service/notifications')
-      .then(r => r.json()).then(d => setData(d.notifications || []))
+      .then(r => {
+        if (!r.ok) throw new Error('API Error');
+        return r.json();
+      })
+      .then(d => setData(d.notifications || []))
       .catch(() => setData(mock))
   }, [])
 
